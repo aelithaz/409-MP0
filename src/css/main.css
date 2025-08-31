@@ -1,1 +1,52 @@
-/* Your CSS here. */
+body {
+  background-color: rgb(255, 255, 255);
+  border: blue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card h1, .card h2 {
+  margin: 0.5rem 0;
+}
+
+.card p {
+  margin-top: 1rem;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.color-buttons {
+  margin-top: 1.5rem;
+}
+
+.color-buttons button {
+  margin: 0 5px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
